@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description"
+        content="Ramy Rouhana — Full-Stack Engineer (WordPress/PHP/JS) focused on secure, high-performance web systems and e-commerce reliability." />
+    <title>Ramy Rouhana | WordPress / PHP / Full-Stack Engineer</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div id="stickyNav" class="sticky-nav">
+        <div class="sticky-inner">
+            <div class="brand">Ramy Rouhana</div>
+            <nav class="sticky-links">
+                <a href="#case-studies">Case Studies</a>
+                <a href="#skills">Skills</a>
+                <a href="#process">Process</a>
+                <a href="#contact" class="pill">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="container header">
+        <div class="topbar">
+            <div>
+                <h1>Ramy Rouhana</h1>
+                <p class="subtitle">Full-Stack Software Engineer • WordPress/PHP/JavaScript • APIs • Performance •
+                    Security</p>
+            </div>
+
+            <nav class="nav">
+                <a href="#case-studies">Case Studies</a>
+                <a href="#skills">Skills</a>
+                <a href="#process">Process</a>
+                <a href="#contact" class="btn">Contact</a>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <div class="hero-left">
+                <p class="lead">
+                    I build and maintain reliable, secure WordPress systems—custom PHP/JS development, REST
+                    integrations,
+                    analytics instrumentation, and performance tuning across staging/production environments.
+                </p>
+
+                <div class="hero-cards">
+                    <div class="card">
+                        <div class="kpi">WordPress</div>
+                        <div class="kpi-sub">Custom integrations & workflows</div>
+                    </div>
+                    <div class="card">
+                        <div class="kpi">APIs</div>
+                        <div class="kpi-sub">Salesforce + third-party systems</div>
+                    </div>
+                    <div class="card">
+                        <div class="kpi">Ops</div>
+                        <div class="kpi-sub">Staging/production hygiene</div>
+                    </div>
+                </div>
+
+                <div class="cta-row">
+                    <a class="btn" href="#case-studies">View Case Studies</a>
+                    <a class="btn ghost" href="./Ramy_Rouhana_CV.pdf" target="_blank" rel="noopener">Download CV
+                        (PDF)</a>
+                </div>
+
+                <p class="nda-note">
+                    Note: Many production projects are under NDA. I share architecture, impact, and technical approach
+                    without exposing client code or confidential details.
+                </p>
+            </div>
+
+            <aside class="hero-right">
+                <div class="panel">
+                    <h2>Quick Info</h2>
+                    <ul class="list">
+                        <li><strong>Location:</strong> Beirut, Lebanon</li>
+                        <li><strong>Focus:</strong> WordPress, PHP, JS, REST APIs, MySQL</li>
+                        <li><strong>Environments:</strong> Kinsta, AWS, Linux, Git</li>
+                        <li><strong>Strength:</strong> debugging + integrations + stability</li>
+                    </ul>
+                    <div class="links">
+                        <a href="mailto:rami.3.rouhana@gmail.com">rami.3.rouhana@gmail.com</a>
+                        <a href="https://linkedin.com/in/ramy-rouhana" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://github.com/rami3rouhana" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <h2>WooCommerce Readiness</h2>
+                    <p class="small">
+                        While my core experience is advanced WordPress + backend integrations, I’m fully comfortable
+                        with the WooCommerce foundation:
+                        hooks/actions, template overrides, order lifecycle, performance and checkout reliability. I ramp
+                        fast and can discuss
+                        architecture and troubleshooting approach clearly.
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="case-studies" class="section">
+            <div class="section-head">
+                <h2>Selected Case Studies (NDA-Safe)</h2>
+                <p class="muted">These highlight real responsibilities: integrations, debugging, performance, security,
+                    and operational stability.</p>
+            </div>
+
+            <div class="grid">
+                <article class="case card">
+                    <h3>Lead Capture Platform: Secure CRM Integration + Attribution</h3>
+                    <p class="tags">WordPress • PHP • JavaScript • REST • MySQL • Analytics • Kinsta</p>
+                    <p>
+                        Built a secure submission pipeline for high-value lead forms, integrating a CRM via a hardened
+                        proxy layer.
+                        Implemented session-persistent attribution (UTM/landing/referrer) and ensured reliable capture
+                        across
+                        embedded forms and popup flows.
+                    </p>
+
+                    <div class="case-cols">
+                        <div>
+                            <h4>What I did</h4>
+                            <ul>
+                                <li>Designed a token-secured proxy endpoint for form submissions to a CRM</li>
+                                <li>Implemented first-touch + last-touch tracking persisted across sessions</li>
+                                <li>Improved UX reliability: AJAX flows, validation, loaders, and error handling</li>
+                                <li>Optimized performance: lazy loading, async scripts, caching-friendly patterns</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Impact</h4>
+                            <ul>
+                                <li>More reliable submissions with cleaner analytics and attribution</li>
+                                <li>Reduced support cases caused by failed or duplicate submissions</li>
+                                <li>Improved funnel conversion through UX and performance tuning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="case card">
+                    <h3>Production Stability: Debugging + Conflict Isolation</h3>
+                    <p class="tags">WordPress • PHP • JS • Logging • Staging/Prod • Git</p>
+                    <p>
+                        Resolved intermittent site issues caused by plugin/theme interactions and caching behavior by
+                        applying a
+                        structured isolation workflow in staging and validating fixes with logs and network traces.
+                    </p>
+
+                    <div class="case-cols">
+                        <div>
+                            <h4>Approach</h4>
+                            <ul>
+                                <li>Reproduce in staging → collect browser console + network traces</li>
+                                <li>Enable server/PHP logs + targeted debug flags (never blanket in prod)</li>
+                                <li>Disable plugins in groups, swap to default theme to isolate conflicts</li>
+                                <li>Confirm root cause → apply minimal fix → regression test critical flows</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Example fixes</h4>
+                            <ul>
+                                <li>Adjusted caching rules to exclude dynamic endpoints</li>
+                                <li>Removed double-submit patterns and improved error handling</li>
+                                <li>Identified JS race conditions triggered by delayed DOM rendering</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="case card">
+                    <h3>Analytics Instrumentation: Marketing Visibility That Drives Decisions</h3>
+                    <p class="tags">GA • Meta Pixel • Events • Attribution • Performance</p>
+                    <p>
+                        Implemented tracking foundations that enabled marketing teams to measure campaign quality,
+                        identify funnel drop-offs,
+                        and prioritize improvements based on conversion data rather than assumptions.
+                    </p>
+
+                    <div class="case-cols">
+                        <div>
+                            <h4>What I implemented</h4>
+                            <ul>
+                                <li>UTM persistence (first/last touch) and structured event logging</li>
+                                <li>Cleaner conversion events with deduplication strategies</li>
+                                <li>Performance-aware script loading to protect Core Web Vitals</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Outcome</h4>
+                            <ul>
+                                <li>Improved confidence in attribution and reporting</li>
+                                <li>Clearer insight into which pages / steps caused drop-off</li>
+                                <li>Better prioritization of UX changes for higher conversion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="case card">
+                    <h3>Backend Engineering Depth: Scalable Services & CI/CD</h3>
+                    <p class="tags">Spring Boot • Node.js • CI/CD • Docker • MySQL</p>
+                    <p>
+                        Built backend services and pipelines focused on correctness, security, and operational
+                        stability—experience that translates well
+                        to high-volume commerce systems where reliability matters.
+                    </p>
+
+                    <div class="case-cols">
+                        <div>
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>Designed layered architectures for maintainability</li>
+                                <li>Implemented validation pipelines and secure auth patterns</li>
+                                <li>Automated builds/deployments with CI/CD + Docker</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Why it matters for e-commerce</h4>
+                            <ul>
+                                <li>Checkout and payments behave like distributed systems</li>
+                                <li>Logs + observability + safe deploys prevent outages</li>
+                                <li>Performance tuning and data correctness protect revenue</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-head">
+                <h2>Skills</h2>
+                <p class="muted">Senior-level focus: reliability, security, and maintainable custom development.</p>
+            </div>
+
+            <div class="split">
+                <div class="card">
+                    <h3>WordPress / Web</h3>
+                    <ul class="pill-list">
+                        <li>Custom themes & plugin development</li>
+                        <li>PHP + WordPress hooks/actions/filters</li>
+                        <li>JS (ES6+), DOM, AJAX, event-driven flows</li>
+                        <li>MySQL debugging & optimization</li>
+                        <li>Performance tuning & Core Web Vitals</li>
+                        <li>Security hardening & safe input/output handling</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Integrations / Ops</h3>
+                    <ul class="pill-list">
+                        <li>REST APIs & third-party sync</li>
+                        <li>Analytics: GA / Meta Pixel concepts + events</li>
+                        <li>Staging/production workflows</li>
+                        <li>Git-based development</li>
+                        <li>Kinsta / AWS familiarity</li>
+                        <li>CI/CD experience (Jenkins/Docker)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="section">
+            <div class="section-head">
+                <h2>How I Work</h2>
+                <p class="muted">A predictable, senior workflow for troubleshooting and delivery.</p>
+            </div>
+
+            <div class="grid three">
+                <div class="card">
+                    <h3>Debugging</h3>
+                    <ol>
+                        <li>Reproduce in staging</li>
+                        <li>Check console + network</li>
+                        <li>Check PHP/server logs</li>
+                        <li>Isolate: plugins/theme</li>
+                        <li>Fix root cause + regression test</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Performance</h3>
+                    <ol>
+                        <li>Measure (TTFB, CWV)</li>
+                        <li>Remove bloat, load scripts safely</li>
+                        <li>Optimize queries & caching</li>
+                        <li>Validate on mobile devices</li>
+                        <li>Monitor after deploy</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Security</h3>
+                    <ol>
+                        <li>Sanitize inputs / escape outputs</li>
+                        <li>Least-privilege and token-based access</li>
+                        <li>Update routines + backups</li>
+                        <li>WAF / rate limiting where needed</li>
+                        <li>Audit logs and monitoring</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p class="muted">Open to remote roles focused on stable, secure commerce and integrations.</p>
+            </div>
+
+            <div class="card contact">
+                <div>
+                    <p><strong>Email:</strong> <a href="mailto:rami.3.rouhana@gmail.com">rami.3.rouhana@gmail.com</a>
+                    </p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ramy-rouhana" target="_blank"
+                            rel="noopener">linkedin.com/in/ramy-rouhana</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/rami3rouhana" target="_blank"
+                            rel="noopener">github.com/rami3rouhana</a></p>
+                    <p class="small muted">Portfolio is NDA-safe. Full project walkthroughs available during interviews.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+        <footer class="footer">
+            <p>© <span id="y"></span> Ramy Rouhana — Built with GitHub Pages.</p>
+        </footer>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const yearEl = document.getElementById("y");
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+            const sticky = document.getElementById("stickyNav");
+            const hero = document.querySelector(".hero");
+
+            if (sticky && hero && "IntersectionObserver" in window) {
+                const obs = new IntersectionObserver(([entry]) => {
+                    sticky.classList.toggle("show", !entry.isIntersecting);
+                }, { threshold: 0.15 });
+                obs.observe(hero);
+            }
+
+            const headerOffset = () => (sticky && sticky.classList.contains("show")) ? 76 : 18;
+
+            document.querySelectorAll('a[href^="#"]').forEach((a) => {
+                a.addEventListener("click", (e) => {
+                    const id = a.getAttribute("href");
+                    if (!id || id === "#") return;
+
+                    const el = document.querySelector(id);
+                    if (!el) return;
+
+                    e.preventDefault();
+
+                    const top = el.getBoundingClientRect().top + window.pageYOffset - headerOffset();
+                    window.scrollTo({ top, behavior: "smooth" });
+                    history.pushState(null, "", id);
+                });
+            });
+
+            const toTop = document.getElementById("toTop");
+            if (toTop) {
+                const toggleTop = () => toTop.classList.toggle("show", window.scrollY > 300);
+                toggleTop();
+                window.addEventListener("scroll", toggleTop, { passive: true });
+                toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+            }
+        });
+    </script>
+</body>
+
+</html>
